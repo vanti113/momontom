@@ -18,7 +18,7 @@ function paintWeather(weather) {
 }
 function getWeather(lat, log) {
   fetch(
-    `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${log}&appid=${API_KEY}&units=metric`
+    `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${log}&appid=${API_KEY}&units=metric`
   )
     .then(function (response) {
       return response.json();
