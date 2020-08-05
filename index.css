@@ -108,7 +108,7 @@ body {
 .ToDo,
 .Done {
   height: 100%;
-  overflow: scroll;
+  overflow: hidden;
   display: flex;
   align-items: center;
   flex-direction: column;
